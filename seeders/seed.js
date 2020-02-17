@@ -7,7 +7,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_n7shqn37:3lipr1j4h
   useUnifiedTopology: true
 });
 
-let directorySeed = [
+let directoryInfo = [
     {
         firstName: "Jaxson",
         lastName: "Quintana",

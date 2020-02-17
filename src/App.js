@@ -1,11 +1,12 @@
 import React from "react";
 import SortButton from "./components/SortButton";
 import EmployeeTable from "./components/pages/Table";
+import Header from "./components/Header"
 
 function App() {
     return (
       <div>
-        <SortButton/>
+        <Header></Header>
         <EmployeeTable></EmployeeTable>
       </div>
     );

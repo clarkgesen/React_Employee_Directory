@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+#employees td, #employees th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
